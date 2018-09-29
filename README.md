@@ -4,9 +4,9 @@ The run_assignment.R script transforms the Samsung data set from: http://archive
 into a tidy data set.
 
 ## The steps are:
-*Loading the individual parts of the training and test sets
-*Loading the features.txt for labeling
-*Naming the columns according to the features.txt
+* Loading the individual parts of the training and test sets
+* Loading the features.txt for labeling
+* Naming the columns according to the features.txt
 *Naming the columns of ".y" and ".subject" to "activity" and "subject"
 *Adding the latter to "train/test.x" as new columns
 *Merging the train and test set rowwise
