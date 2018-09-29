@@ -7,11 +7,11 @@ into a tidy data set.
 * Loading the individual parts of the training and test sets
 * Loading the features.txt for labeling
 * Naming the columns according to the features.txt
-*Naming the columns of ".y" and ".subject" to "activity" and "subject"
-*Adding the latter to "train/test.x" as new columns
-*Merging the train and test set rowwise
-*Select the columnnames with the Strings "mean()" or "std" and extract them into a new dataframe "subset"
-*Create the vector of factors which describe the activities
-*Substitute the coded activity numbers by the factors
-*Group subset by activity and mean and take averages to create new data frame "tidyset"
-*Write file
+* Naming the columns of ".y" and ".subject" to "activity" and "subject"
+* Adding the latter to "train/test.x" as new columns
+* Merging the train and test set rowwise
+* Select the columnnames with the Strings "mean()" or "std" and extract them into a new dataframe "subset"
+* Create the vector of factors which describe the activities
+* Substitute the coded activity numbers by the factors
+* Group subset by activity and mean and take averages to create new data frame "tidyset"
+* Write file
